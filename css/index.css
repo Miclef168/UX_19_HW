@@ -26,13 +26,11 @@ li {
     background-size: cover;
     z-index: 10;
 }
-.container {
-    margin: 0 auto;
-    text-align: center;
-    font-size: 22px;
-  }
+
   #dropDown {
     display: none;
+    background-color: #005377;
+    color: White;
   }
   #toggle {
     background-color: white;
