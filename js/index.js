@@ -1,1 +1,3 @@
-console.log("Your Page is Loaded Correctly")
+$("#toggle").on("click", function() {
+    $("#dropDown").slideToggle();
+})

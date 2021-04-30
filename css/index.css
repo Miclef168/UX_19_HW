@@ -1,0 +1,99 @@
+h1 {
+    font-family: "Caveat", serif;
+    font-size: 36px;
+    margin: 0;
+}
+h2, h3, h4, h5, h6 {
+    font-family: "Vollkorn", sans-serif;
+    Margin: 0;
+}
+p {
+    font-family: "Catamaran", sans-serif;
+}
+ul {
+    margin:0;
+    padding: 0;
+    list-style-type:none;
+}
+li {
+    margin:0;
+    padding: 15px;
+}
+.header {
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+    background-size: cover;
+    z-index: 10;
+}
+.container {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 22px;
+  }
+  #dropDown {
+    display: none;
+  }
+  #toggle {
+    background-color: white;
+    padding: 15px;
+    color: blue;
+    font-weight: 500;
+    cursor: pointer; 
+  }
+  
+.logo {
+    z-index: 10;
+    grid-area: logo;
+    display: grid;
+    margin: 0px;
+    display: grid;
+    max-height: 100px;
+    height: 70vh;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 10% 20% 70%;
+    grid-template-areas: 
+    "myLogo headerName nav"
+    "myLogo headerJob nav";
+}
+/* Category Grid CSS */
+#navbar-brand {
+    grid-area: myLogo;
+    z-index: 10;
+  }
+#headerName {
+    grid-area: headerName;
+    z-index: 10;
+  }
+#headerJob {
+    z-index: 10;
+    grid-area: headerJob;
+  }
+.nav {
+    z-index: 10;
+    list-style: none;    
+    grid-area: nav;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.imgContainer {
+    margin: 0;
+    padding: 0;
+    float: left;
+    height: 700px;
+}
+.heroImg {
+    Height: 600 px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+.heroCopy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    Height:100%;
+}
